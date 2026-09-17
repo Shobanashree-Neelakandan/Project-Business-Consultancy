@@ -61,37 +61,6 @@
     font-size: 20px;
     color: #ffffff;
 }
-.b-consultation{
-    display: none;
-}
-
-.popup {
-    position: fixed;
-    inset: 0;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    background: #0006;
-    backdrop-filter: blur(8px);
-}
-.popup:target {
-    display: flex;
-}
-
-.form {
-    background: white;
-    padding: 30px;
-    width: 400px;
-    border-radius: 15px;
-    position: relative;
-}
-.form input,
-.form textarea {
-    width: 100%;
-    margin: 8px 0;
-    padding: 10px;
-    box-sizing: border-box;
-}
 
 /* first page */
 
@@ -102,6 +71,7 @@
 }
 
 .first-content{
+    padding-left: 20px;
     text-align: left;  
     margin-left: 50px;
 
@@ -527,7 +497,7 @@
     border-top: solid 7px #015c9e;
     box-shadow: 1px 4px 3px 3px #8da1b0;
     width: 350px;
-    height: 400px;
+    height: 430px;
     border-radius: 10px;
 
     animation: missionan 1s linear;
@@ -1105,6 +1075,7 @@ select option {
     height: auto;
 }
 .first-content{
+    padding-left: 20px;
     text-align: left;  
     margin-left: auto;
 }
@@ -1149,8 +1120,6 @@ select option {
     height: 600px;
     width: 100%;
 }
-
-/*  */
 
 /* second page - service */
 
@@ -1468,7 +1437,7 @@ select option {
     border-top: solid 7px #015c9e;
     box-shadow: 1px 4px 3px 3px #8da1b0;
     width: 90%;
-    height: 400px;
+    height: 430px;
     border-radius: 10px;
 }
 .mis-bottom{
